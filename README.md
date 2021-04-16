@@ -1,16 +1,5 @@
-<h1 align="center">
-<img
-		width="250"
-		alt="ZEZE"
-		src="'../assets/images/opaque.png'">
-</h1>
-<h3 align="center">
-	ZEZE
-</h3>
-
-<p align="center">
-	<img src="'../assets/images/opaque.png'" width="300">
-</p>
+![ZEZE](./assets/images/opaque.png "ZEZE")
+#ZEZE
 
 
 ## Overview
@@ -30,8 +19,7 @@
 You can try it here : https://expo.io/@mlamisa/projects/zeze
 
 ## Screenshots
-
-<img
+<!-- <img
 width="205"
 alt="Capture 1"
 src="../assets/images/opaque.png">
@@ -46,7 +34,7 @@ src="../assets/images/opaque.png">
 <img
 width="205"
 alt="Capture 4"
-src="../assets/images/opaque.png">
+src="../assets/images/opaque.png"> -->
 
 
 ## Installation and usage
