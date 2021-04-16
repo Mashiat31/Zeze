@@ -1,6 +1,13 @@
-![ZEZE](./assets/images/opaque.png "ZEZE")
 
-# ZEZE
+<h1 align="center">
+<img
+		width="250"
+		alt="Zeze"
+		src="./assets/images/opaque.png">
+
+</h1>
+
+<h1 align="center"> ZEZE </h1>
 
 
 ## Overview
