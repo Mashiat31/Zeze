@@ -12,7 +12,7 @@
 
 ## Overview
 
-ZeZe - meaning sister in cantonese, is an app that uses a smart algorithm that uses Data Driven Matchmaking for Moms and Services.
+ZeZe - meaning sister in cantonese, is an app that uses a smart algorithm to implement Data Driven Matchmaking for Moms and Services.
 This is to function as a support system for women, made by women. We want to connect working women with other working women, like a sister helping another sister, by collaborating with other progressive business movements, we belive we can influence each other to share our struggles. This is also a platform for women to generate some revenue through content creation.
 
 We want to include women’s perspectives and concerns more intentionally. We want to create a foundation for a new social and economic order among working moms.
