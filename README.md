@@ -1,12 +1,17 @@
 ![ZEZE](./assets/images/opaque.png "ZEZE")
-#ZEZE
+
+# ZEZE
 
 
 ## Overview
 
+ZeZe - meaning sister in cantonese, is an app that uses a smart algorithm that uses Data Driven Matchmaking for Moms and Services.
+This is to function as a support system for women, made by women. We want to connect working women with other working women, like a sister helping another sister, by collaborating with other progressive business movements, we belive we can influence each other to share our struggles. This is also a platform for women to generate some revenue through content creation.
+
+We want to include women’s perspectives and concerns more intentionally. We want to create a foundation for a new social and economic order among working moms.
 
 
- 4 screens are availables : Explore, Matches, Messages and Profile. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
+ 4 screens are availables : Explore, Mentors, Community and Zezes. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
 
 - **Easy to use** 🤘
 - **Made with Expo** ⚡
@@ -19,22 +24,31 @@
 You can try it here : https://expo.io/@mlamisa/projects/zeze
 
 ## Screenshots
-<!-- <img
+
+<img
 width="205"
 alt="Capture 1"
-src="../assets/images/opaque.png">
+src="./assets/images/1.png">
 <img
 width="205"
 alt="Capture 2"
-src="../assets/images/opaque.png">
+src="./assets/images/2.png">
 <img
 width="205"
 alt="Capture 3"
-src="../assets/images/opaque.png">
+src="./assets/images/3.png">
 <img
 width="205"
 alt="Capture 4"
-src="../assets/images/opaque.png"> -->
+src="./assets/images/Group 4.png">
+<img
+width="205"
+alt="Capture 4"
+src="./assets/images/chat.png">
+<img
+width="205"
+alt="Capture 4"
+src="./assets/images/chat2.png">
 
 
 ## Installation and usage
@@ -55,54 +69,18 @@ cd zeze-expo
 
 Install packages :
 
-```
-yarn
+```shell
+yarn # OR
+npm install
 ```
 
 When installation is complete, run it :
 
+```shell
+yarn start # OR
+npm run start
 ```
-yarn start
-```
 
 
-## Props
-
-### CardItem
-
-| Name           | Type     | Required | Description                                               | Example                                             |
-| -------------- | -------- | -------- | --------------------------------------------------------- | --------------------------------------------------- |
-| `image`        | string   | Yes      | Picture of member.                                        | `image="https://..."`                               |
-| `name`         | string   | Yes      | Name of member.                                           | `name="John Doe"`                                   |
-| `description`  | string   | Yes      | Description of member.                                    | `description="Full-time Traveller. Globe Trotter."` |
-| `matches`      | string   | Yes      | Match percentage.                                         | `matches="95"`                                      |
-| `hasActions`   | boolean  | No       | Display actions buttons (Like, Dislike, ...).             | `actions`                                           |
-| `isOnline`     | string   | No       | Display online or offline badge (`Online` and `Offline`). | `status="Online"`                                   |
-| `hasVariant`   | boolean  | No       | Display another style of card (used for Matches screen).  | `variant`                                           |
-
-### Message
-
-| Name          | Type   | Required | Description             | Example                                                                                      |
-| ------------- | ------ | -------- | ----------------------- | -------------------------------------------------------------------------------------------- |
-| `image`       | string | Yes      | Picture of member.      | `image="https://..."`                                                                        |
-| `name`        | string | Yes      | Name of member.         | `name="John Doe"`                                                                            |
-| `lastMessage` | string | Yes      | Last message of member. | `lastMessage="You want order in Gotham. Batman must take off his mask and turn himself in."` |
 
 
-### ProfileItem
-
-| Name       | Type   | Required | Description                 | Example                                    |
-| ---------- | ------ | -------- | --------------------------- | ------------------------------------------ |
-| `name`     | string | Yes      | Name of member.             | `name="John Doe"`                          |
-| `matches`  | string | Yes      | Match percentage.           | `matches="95"`                             |
-| `age`      | string | No       | Age of member.              | `age="25"`                                 |
-| `location` | string | No       | Location of member.         | `location="Paris, France"`                 |
-| `info1`    | string | No       | More information of member. | `info1="Straight, Single"`                 |
-| `info2`    | string | No       | More information of member. | `info2="Tea Totaller & Loves Photography"` |
-| `info3`    | string | No       | More information of member. | `info3="Beaches, Mountain & Coffee"`       |
-| `info4`    | string | No       | More information of member. | `info4="Last seen: 23h ago"`               |
-
-
-## Star, Fork, Clone & Contribute
-
-Feel free to contribute on this repository. If my work helps you, please give me back with a star. This means a lot to me and keeps me going!
